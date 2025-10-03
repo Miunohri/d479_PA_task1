@@ -54,8 +54,8 @@ body {
 }
 
 .slider_nav a{
-    width: 0.5rem;
-    height: 0.5rem;
+    width: 1rem;
+    height: 1rem;
     cursor: pointer;
     border-radius: 50%;
     background-color: #fff;
@@ -110,15 +110,15 @@ body {
 h1 {
     text-align: center;
     font-size: 30px;
-    padding-top: 100px;
     font-weight: 500;
+    padding-top: 100px;;
 }
 
 .h1 { 
     text-align: center;
     font-size: 30px;
     padding-bottom: 40px;
-    padding-top: 100px;
+    padding-top: 43px;
     font-weight: 500;
 }
 
@@ -141,6 +141,48 @@ p {
     padding-right: 120px;
 }
 
+.list {
+    padding-bottom: 23px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.list li {
+    padding-bottom: 23px;
+}
+
 .text {
+    padding-top: 43px;
+}
+
+.centerimg {
+    display:flex;
+    justify-content: center;
+    padding-top: 43px;
+    padding-bottom: 43px;
+    margin: auto;
+}
+
+.sideimg {
+    padding-left: 120px;
+    padding-top: 20px;
+}
+
+.text_wrapper {
+    padding-top: 13px;
+}
+
+.container3 {
+    display: flex;
+    gap: 80px;
+}
+
+.container4 {
+    padding-top: 43px;
+    display: flex;
+    gap: 80px;
+}
+
+.first_p {
     padding-top: 43px;
 }
